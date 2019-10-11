@@ -9,6 +9,7 @@ engines:
       - javascript
       - scss
       - json
+      -
   eslint:
     enabled: true
   fixme:
