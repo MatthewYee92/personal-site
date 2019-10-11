@@ -1,14 +1,19 @@
 const degrees = [
   {
-    school: 'Stanford University',
-    degree: 'M.S. Computational and Mathematical Engineering',
-    link: 'https://stanford.edu',
-    year: 2016,
+    school: 'Hack Reactor @ Galvanize',
+    degree: 'Certificate - Software Engineering',
+    link: 'https://hackreactor.com',
+    year: 2019,
   }, {
-    school: 'University at Buffalo',
-    degree: 'B.S. Electrical Engineering, Computer Engineering',
-    link: 'https://buffalo.edu',
-    year: 2012,
+    school: 'Udacity',
+    degree: 'Nanodegree - Front End Web Developer',
+    link: 'https://https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011',
+    year: 2018,
+  }, {
+    school: 'Eastern Florida State College',
+    degree: 'A.S - Computer Science',
+    link: 'https://easternflorida.edu',
+    year: 2018,
   },
 ];
 

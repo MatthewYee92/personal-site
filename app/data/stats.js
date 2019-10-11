@@ -1,16 +1,16 @@
 const data = {
   age: {
     label: 'Current age',
-    value: 0,
+    value: 27,
   },
   countries: {
     label: 'Countries visited',
     value: 53,
-    link: 'https://www.google.com/maps/d/embed?mid=1iBBTscqateQ93pWFVfHCUZXoDu8&z=2',
+    link: 'https://www.google.com/maps/d/u/0/viewer?mid=18d2mYX4yLFIavUytFPKTzeJBg7ypo97-&ll=39.825134454111954%2C-43.78390175000004&z=3',
   },
   location: {
     label: 'Current city',
-    value: 'New York, NY',
+    value: 'Seattle, WA',
   },
 };
 
