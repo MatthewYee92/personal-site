@@ -3,7 +3,7 @@ import path from 'path';
 import data from './app/data/routes';
 
 /*
- * creates index.html files for all routes in ./dist
+ * method creates index.html files for all routes in dist
  */
 
 data.filter(route => !route.index).forEach((route) => {
