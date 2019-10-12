@@ -6,7 +6,7 @@ import data from './app/data/routes';
  * method creates index.html files for all routes in dist
  */
 
-data.filter(route => !route.index).forEach((route) => {
+data.filter((route) => !route.index).forEach((route) => {
   const subdir = route.path.substr(1);
   const dir = path.join(__dirname, 'dist', subdir);
   if (!fs.existsSync(dir)) {
