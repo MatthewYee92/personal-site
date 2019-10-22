@@ -74,6 +74,7 @@ class Skills extends Component {
   }
 
   render() {
+    const { getButtons, getRows } = this;
     return (
       <div className="skills">
         <div className="link-to" id="skills" />
@@ -82,10 +83,10 @@ class Skills extends Component {
           <p>Note: I think these sections are silly, but everyone seems to have one.</p>
         </div>
         <div className="skill-button-container">
-          {this.getButtons()}
+          {getButtons()}
         </div>
         <div className="skill-row-container">
-          {this.getRows()}
+          {getRows()}
         </div>
       </div>
     );
